@@ -11,6 +11,19 @@ const footer = () => {
         <footer className='footer py-5'>
             <div className="container-xxl">
                 <div className="row">
+                    <div className="col-12 d-flex ">
+                        <div className="col-8 text-center mb-3">
+                            <h3>Signup For News-letter</h3>
+                            <p>To get update On All <Link> Special Offers</Link></p>
+                        </div>
+                        <div className="col-4 mb-3">
+                            <div className="input-group text-center">
+                                <input type="text" className="form-control" placeholder="Enter Email Here" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                                <button className="input-group-text" id="basic-addon2">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
                     <div className="col-4 d-flex flex-column">
                         <h2 className='mb-4'>Contact us</h2>
                         <div className="footer-details">

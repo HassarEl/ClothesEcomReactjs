@@ -165,7 +165,7 @@ export const  PRODUCTS1 = [
         {
         id: 17,
         image: img2,
-        name: "Men's Dri-FIT T-Shirt",
+        name: "Men's Dri-FIT",
         price: 24.90,
         brand: 'Nike',
         status: 'in stock',
@@ -183,7 +183,7 @@ export const  PRODUCTS1 = [
         {
         id: 19,
         image: img4,
-        name: "Men's 1950s Sportswear T-Shirt",
+        name: "Men's 1950s Sportswear",
         price: 49.90,
         brand: 'Levi s',
         status: 'out of stock',
@@ -192,7 +192,7 @@ export const  PRODUCTS1 = [
         {
         id: 20,
         image: img5,
-        name: "Men's Tech 2.0 Short Sleeve T-Shirt",
+        name: "Men's Tech 2.0 Short Sleeve",
         price: 49.90,
         brand: 'Under Armour',
         status: 'out of stock',
@@ -210,7 +210,7 @@ export const  PRODUCTS1 = [
         {
         id: 22,
         image: img7,
-        name: "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
+        name: "Men's Cotton Classic Short Sleeve Crew Neck",
         price: 39.50,
         brand: 'Puma',
         status: 'out of stock',
@@ -219,7 +219,7 @@ export const  PRODUCTS1 = [
         {
         id: 23,
         image: img8,
-        name: "Women's Classic Fit Crewneck T-Shirt",
+        name: "Women's Classic Fit Crewneck",
         price: 29.50,
         brand: 'Ralph Lauren',
         status: 'out of stock',

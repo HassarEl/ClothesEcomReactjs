@@ -36,7 +36,7 @@ const header = () => {
                 </div>
                 <div className="col-3 d-flex align-items-center">
                     <div className="input-group mb-1">
-                        <span className="input-group-text" id="basic-addon1">All</span>
+                        <span className="input-group-text m-0" id="basic-addon1">All</span>
                         <input type="text" className="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                         <button className="input-group-text" id="basic-addon2">Search</button>
                     </div>
