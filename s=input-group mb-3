@@ -1,0 +1,23 @@
+[33mcommit 6227589d56e03d7f0417d604f9a39668ea6574c5[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Mehdi Hassar <mido.hass.31@gmail.com>
+Date:   Thu Jul 13 17:02:17 2023 +0100
+
+    add component cart item
+
+[33mcommit 4fc589e3b1c7bfe1bf52e80b05a26149f163d7b3[m
+Author: Mehdi Hassar <mido.hass.31@gmail.com>
+Date:   Thu Jul 13 15:23:33 2023 +0100
+
+    create shop component
+
+[33mcommit 283128feedfdd54e0082cb973b3f57da3ad3de85[m
+Author: Mehdi Hassar <mido.hass.31@gmail.com>
+Date:   Wed Jul 12 16:38:57 2023 +0100
+
+    end home page
+
+[33mcommit 278e9e1e94a6fafd3da06368e677313b85dae8c1[m
+Author: Mehdi Hassar <mido.hass.31@gmail.com>
+Date:   Wed Jul 12 13:21:48 2023 +0100
+
+    first commit
