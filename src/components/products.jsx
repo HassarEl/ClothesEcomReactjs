@@ -124,7 +124,7 @@ export const PRODUCTS = [
         {
         id: 12,
         image: pro5,
-        name: "Men's Tech 2.0 Short Sleeve T-Shirt",
+        name: "Men's Tech 2.0 Short Sleeve",
         price: 49.90,
         brand: 'Under Armour'
         },
@@ -138,14 +138,14 @@ export const PRODUCTS = [
         {
         id: 14,
         image: pro7,
-        name: "Men's Cotton Classic Short Sleeve Crew Neck T-Shirt",
+        name: "Men's Cotton Classic Short Sleeve Crew Neck",
         price: 39.50,
         brand: 'Puma'
         },
         {
         id: 15,
         image: pro8,
-        name: "Women's Classic Fit Crewneck T-Shirt",
+        name: "Women's Classic Fit Crewneck",
         price: 29.50,
         brand: 'Ralph Lauren'
         }
@@ -210,7 +210,7 @@ export const  PRODUCTS1 = [
         {
         id: 22,
         image: img7,
-        name: "Men's Cotton Classic Short Sleeve Crew Neck",
+        name: "Short Sleeve Crew Neck",
         price: 39.50,
         brand: 'Puma',
         status: 'out of stock',
@@ -219,7 +219,7 @@ export const  PRODUCTS1 = [
         {
         id: 23,
         image: img8,
-        name: "Women's Classic Fit Crewneck",
+        name: "Women's Fit Crewneck",
         price: 29.50,
         brand: 'Ralph Lauren',
         status: 'out of stock',
