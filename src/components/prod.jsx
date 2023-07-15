@@ -35,7 +35,7 @@ const prod = (props) => {
                         <button
                         className='add-button'
                         onClick={() => {
-                            addToCart(id);
+                            addToCart(id),
                             event.target.classlist.toggle("red");
                         }}
                         >

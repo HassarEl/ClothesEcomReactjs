@@ -43,6 +43,7 @@ const cartitems = (props) => {
                           </div>
                       </td>
                     </tr>
+                    
                 </tbody>
     </>
 }

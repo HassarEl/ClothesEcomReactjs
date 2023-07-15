@@ -308,6 +308,35 @@ tbody{
   font-size: 14px;
   font-weight: 600;
 }
+.cart-total button{
+  background: transparent;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid;
+  color: var(--primary1);
+  font-size: 14px;
+  font-weight: 600;
+  transition:0.5s ease ;
+}
+.cart-total button:hover{
+  background: var(--primary2);
+  color: var(--lighter);
+}
+.clear-btn{
+  width: 30px;
+  background: transparent;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid;
+  color: var(--primary1);
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.5s ease;
+}
+.clear-btn:hover{
+  background: var(--primary2);
+  color: var(--lighter);
+}
 tbody .input-group button{
   border: 1px solid var(--lighter);
   width: 70px;
