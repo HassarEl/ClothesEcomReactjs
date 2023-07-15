@@ -40,7 +40,7 @@ const prod = (props) => {
                         }}
                         >
                             Add To Cart
-                            {cartItemCount > 0 && `(${cartItemCount})`}    
+                            {cartItemCount > 0 && `(${cartItemCount})`}
                         </button>
                     </div>
                 </div>

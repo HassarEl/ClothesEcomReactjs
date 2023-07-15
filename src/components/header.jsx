@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext} from 'react'
 import { BiPhoneCall } from 'react-icons/bi'
 import { AiOutlineMail } from 'react-icons/ai'
 import { Link, useLocation } from 'react-router-dom'
@@ -6,9 +6,12 @@ import logo from '../assets/images/apneck.png'
 import { HiOutlineInboxIn } from 'react-icons/hi'
 import { VscAccount } from 'react-icons/vsc'
 import { CgShoppingCart } from 'react-icons/cg'
+import { ShopContext } from './shopcontext'
 
 const header = () => {
     const location = useLocation();
+    const { getTotalCartProducts } = useContext(ShopContext); 
+    const totalProducts = getTotalCartProducts();
     return <>
     <header className='header-top-strip p-2 shadow-md'>
         <div className="container-xxl">
@@ -64,7 +67,9 @@ const header = () => {
                     <Link to={'cart'} className={location.pathname === '/cart' ? 'inactive' : 'active'}>
                         <div className="d-flex">
                             <span><CgShoppingCart className='fs-3 mx-2'/></span>
-                            <p>Cart</p>
+                            <p>Cart
+                            {totalProducts > 0 && `(${totalProducts})`}
+                            </p>
                         </div>
                     </Link>
                 </div>
