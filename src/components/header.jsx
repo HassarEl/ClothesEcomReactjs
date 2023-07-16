@@ -68,7 +68,9 @@ const header = () => {
                         <div className="d-flex">
                             <span><CgShoppingCart className='fs-3 mx-2'/></span>
                             <p>Cart
-                            {totalProducts > 0 && `(${totalProducts})`}
+                                <span className="text-danger">
+                                    {totalProducts > 0 && `(${totalProducts})`}
+                                </span>
                             </p>
                         </div>
                     </Link>

@@ -6,8 +6,9 @@ import { Link } from 'react-router-dom'
 
 
 const cart = () => {
-  const {getTotalCartAmount, ClearCart, cartItems } = useContext(ShopContext);
+  const {getTotalCartAmount, getTotalCartProducts, ClearCart, cartItems } = useContext(ShopContext);
   const TotalAmount = getTotalCartAmount();
+    const totalProducts = getTotalCartProducts();
   return <>
     {TotalAmount > 0 ?
       <section className="cart-item p-5">
@@ -39,13 +40,18 @@ const cart = () => {
       <hr />
       
       <div className="cart-total d-flex justify-content-between">
-        <div className="col-6">
+        <div>
           <button>Continue Shopping</button>
         </div>
-        <div className="col-6">
-          <h3>Totale : </h3>
+        <div>
+          <h3>Totale</h3>
+          <p className='my-2'>Total Products :
+            <span className="price">
+              {totalProducts}
+            </span>
+          </p>
           <p className="price mb-4">
-            ${TotalAmount}
+            $ {TotalAmount}
           </p>
           <button>
             Check Out
