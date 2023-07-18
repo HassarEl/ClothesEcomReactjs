@@ -73,14 +73,14 @@ const home = () => {
                 <img src={img1} alt="" className='img-fluid rounded-start p-2 h-100' />
                 </div>
                 <div className="col-md-8">
-                <div className="card-body">
+                  <div className="card-body">
                   <span>Hot Deals</span>
                   <h3 className='card-title'>
                     Buy One get One  free.
                   </h3>
                   <p>The latest bast collection in our closet Feel Cute with our outfits</p>
                   <button className='button-deals mt-3'>Learn More</button>
-                </div>
+                  </div>
                 </div>
               </div>
             </div>

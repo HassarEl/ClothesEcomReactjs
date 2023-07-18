@@ -27,7 +27,7 @@ const prod = (props) => {
                 <p className='price'>{price} <span className='text-danger'> &nbsp;<strike>{price * 2}</strike></span></p>
                 <div className='mb-2 d-flex align-items-center justify-content-around '>
                     <div className="col-6 d-flex align-items-center justify-content-around ">
-                        <Link className='view-button' onClick={() => {viewProductDetails(id)}}>
+                        <Link to='/details' className='view-button' onClick={() => {viewProductDetails(id)}}>
                             Vew Details
                         </Link>
                     </div>

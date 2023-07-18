@@ -10,8 +10,8 @@ import Cart from './pages/cart'
 import Login from './pages/login'
 import Account from './pages/account'
 import Wishlist from './pages/wishlist'
-
 import ShopContext from './components/shopcontext'
+import Details from './pages/details'
 
 
 function App() {
@@ -32,6 +32,7 @@ function App() {
               <Route path='account' element={<Account/>}/>
               <Route path='login' element={<Login/>}/>
               <Route path='wishlist' element={<Wishlist/>}/>
+              <Route path='details' element={<Details />}/>
               
             </Route>
           </Routes>
