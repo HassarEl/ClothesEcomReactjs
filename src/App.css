@@ -399,4 +399,9 @@ tbody .input-group button{
   max-height: 100vh;
   border-radius: 30px;
  }
+ .blogs img{
+  width: 10rem;
+  padding: 5px;
+  border-radius: 15px;
+}
 /* About Ends */

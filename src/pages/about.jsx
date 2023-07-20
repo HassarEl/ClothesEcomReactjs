@@ -84,10 +84,12 @@ const about = () => {
             <h1>What Our Customer Say</h1>
             <p>Get To know our trusted customer say</p>
           </div>
-          <div className="card col-6 blog-details-page my-3">
+
+          <div className="col-6 p-3">
+            <div className="card blog-details-page my-3">
             <div className="p-4 d-flex">
               <div className="col-4">
-                <img src={img1} alt="" className='img-fluid'/>
+                <img src={img1} alt="" className='img-fluid card-img-top'/>
               </div>
               <div className="card-body col-8">
                   <span>Marvel Clein</span>
@@ -101,12 +103,14 @@ const about = () => {
                   </p>
               </div>
             </div>
+          </div>
           </div>
 
-          <div className="card col-6 blog-details-page my-3">
+          <div className="col-6 p-3">
+            <div className="card blog-details-page my-3">
             <div className="p-4 d-flex">
               <div className="col-4">
-                <img src={img4} alt="" className='img-fluid'/>
+                <img src={img4} alt="" className='img-fluid card-img-top'/>
               </div>
               <div className="card-body col-8">
                   <span>Marvel Clein</span>
@@ -120,12 +124,14 @@ const about = () => {
                   </p>
               </div>
             </div>
+          </div>
           </div>
 
-          <div className="card col-6 blog-details-page my-3">
+          <div className="col-6 p-3">
+            <div className="card blog-details-page my-3">
             <div className="p-4 d-flex">
               <div className="col-4">
-                <img src={img2} alt="" className='img-fluid'/>
+                <img src={img2} alt="" className='img-fluid card-img-top'/>
               </div>
               <div className="card-body col-8">
                   <span>Marvel Clein</span>
@@ -139,12 +145,14 @@ const about = () => {
                   </p>
               </div>
             </div>
+          </div>
           </div>
 
-          <div className="card col-6 blog-details-page my-3">
+          <div className="col-6 p-3">
+            <div className="card blog-details-page my-3">
             <div className="p-4 d-flex">
               <div className="col-4">
-                <img src={img3} alt="" className='img-fluid'/>
+                <img src={img3} alt="" className='img-fluid card-img-top'/>
               </div>
               <div className="card-body col-8">
                   <span>Marvel Clein</span>
@@ -159,6 +167,50 @@ const about = () => {
               </div>
             </div>
           </div>
+          </div>
+
+          <div className="col-6 p-3">
+            <div className="card blog-details-page my-3">
+            <div className="p-4 d-flex">
+              <div className="col-4">
+                <img src={img5} alt="" className='img-fluid card-img-top'/>
+              </div>
+              <div className="card-body col-8">
+                  <span>Marvel Clein</span>
+                  <p className='my-3'>
+                    Lorem ipsum dolor,
+                    sit amet consectetur adipisicing elit. 
+                    Unde quas voluptatum veniam dignissimos, 
+                    sit laborum quidem ab officia, 
+                    asperiores nam a magnam sunt iste itaque repudiandae 
+                    tempora non corporis minus.
+                  </p>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div className="col-6 p-3">
+            <div className="card blog-details-page my-3">
+            <div className="p-4 d-flex">
+              <div className="col-4">
+                <img src={img6} alt="" className='img-fluid card-img-top'/>
+              </div>
+              <div className="card-body col-8">
+                  <span>Marvel Clein</span>
+                  <p className='my-3'>
+                    Lorem ipsum dolor,
+                    sit amet consectetur adipisicing elit. 
+                    Unde quas voluptatum veniam dignissimos, 
+                    sit laborum quidem ab officia, 
+                    asperiores nam a magnam sunt iste itaque repudiandae 
+                    tempora non corporis minus.
+                  </p>
+              </div>
+            </div>
+          </div>
+          </div>
+          
         </div>
       </div>
     </section>
