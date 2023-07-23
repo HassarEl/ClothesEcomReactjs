@@ -9,6 +9,15 @@ import img4 from '../assets/images/blog/b4.jpg'
 import img5 from '../assets/images/blog/b5.jpg'
 import img6 from '../assets/images/blog/b6.jpg'
 
+import Marquee from "react-fast-marquee";
+import Hero from '../components/hero'
+
+import orders from '../assets/images/icons/icon1.png'
+import orders1 from '../assets/images/icons/icon2.png'
+import orders2 from '../assets/images/icons/icon3.png'
+import orders3 from '../assets/images/icons/icon4.png'
+import orders4 from '../assets/images/icons/icon5.png'
+
 
 const about = () => {
   return <>
@@ -210,7 +219,42 @@ const about = () => {
             </div>
           </div>
           </div>
-          
+
+        </div>
+      </div>
+    </section>
+
+    <section className="marquee p-5">
+      <div className="container-xxl">
+        <div className="row">
+            <div className="col-12">
+              <Marquee className='p-2 slide'>
+                <div className="card mx-5">
+                  <img src={orders} alt="" className='img-fluid' />
+                  <p className='card-text'>Quick Orders</p>
+                </div>
+
+                <div className="card mx-5">
+                  <img src={orders1} alt="" className='img-fluid' />
+                  <p className='card-text'>Fast Shipping</p>
+                </div>
+
+                <div className="card mx-5">
+                  <img src={orders2} alt="" className='img-fluid' />
+                  <p className='card-text'>Huge Saves</p>
+                </div>
+
+                <div className="card mx-5">
+                  <img src={orders3} alt="" className='img-fluid' />
+                  <p className='card-text'>Online Orders</p>
+                </div>
+
+                <div className="card mx-5">
+                  <img src={orders4} alt="" className='img-fluid' />
+                  <p className='card-text'>24/7 Support</p>
+                </div>
+              </Marquee>
+            </div>
         </div>
       </div>
     </section>

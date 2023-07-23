@@ -404,4 +404,47 @@ tbody .input-group button{
   padding: 5px;
   border-radius: 15px;
 }
+
+.blogs{
+  background: var(--lighter1);
+}
+.marquee img{
+  width: 8rem;
+  padding: 20px;
+  border-radius: 15px;
+}
+.marquee .card{
+  border: none;
+}
 /* About Ends */
+
+/* Contact Begin */
+.contact-wrapper{
+  background: url('./assets/images/back.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+.contact-info{
+  background: var(--lighter1);
+}
+.contact-info iframe{
+  width: 100%;
+  height: 45vh;
+}
+.form{
+  background: var(--lighter2);
+}
+.form .card{
+  background: var(--lighter1);
+}
+.form button{
+  background: var(--darken);
+  border: var(--darken);
+}
+.form button:hover{
+  background: var(--search);
+  border: var(--darken);
+}
+/* Contact End */
